@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<script src="code/game.js"></script>
+<script src="code/game_levels.js"></script>
+
+<link rel="stylesheet" href="css/game.css">
+<style>
+	body{
+	background-color:black;	
+	}
+	h1{
+	font-family:"Courier New";
+	font-size:3.0em;
+	color: limegreen;
+	}
+	p{
+	font-family:"Courier New";
+	font-size:1.0em;	
+	color:white;
+	}
+</style>
+  <h1>Matrix Block!</h1>
+  <input type="button" id = "controls" value="Controls">
+  <br><br>
+  <p id = "died" style="display:inline">Death Count: </p><p style="display:inline" id = "deathCount">0</p>
+  <br><br>
+  <p id = "level"style="display:inline">Level: </p><p id = "levelCount"style="display:inline">1</p>
+  <br><br>
+  <p id = "coin"style="display:inline">Coins Left: </p><p id = "coinLeft"style="display:inline">7</p>   
+  <br><br>
+  <input type="button" id = "resetGame" value="Restart the Game">
+  <p id = "End"></p>   
+<body>
+  <script>
+    runGame(GAME_LEVELS, DOMDisplay);
+	button1();
+	button2();
+  </script>
+</body>

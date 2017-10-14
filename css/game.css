@@ -1,0 +1,49 @@
+.background    { background: rgb(0, 0, 0);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+
+.lost .background    { background: rgb(125, 0, 0);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+
+.won .background    { background-image: url("../images/winScreen.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+
+.background td { padding: 0;          }
+
+.lava          { background-image: url("../images/sludge.png"); background-size:20px 20px; }
+
+.wall          {background: white;   }
+
+
+.lost .wall          {background: black;   }
+.actor  { position: absolute;  }
+
+.coin   { background: rgb(0, 229, 0); }
+
+.player { background: rgb(0, 255, 0); }
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+
+.lost .player {
+  background: rgb(255, 251, 0);
+ box-shadow: -4px -7px 8px yellow, 4px -7px 8px yellow;}
+
+.won .player {
+  background: white; box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+.speed { background: azure; }
+.gravity { background: rgb(255, 0, 0); }
+.ngravity { background: rgb(0, 0, 255); }
+.reversegravity { background: rgb(150, 150, 150);}
+.enemy{ background-image: url("../images/Enemy.png"); background-size:20px 20px; }
+.invincibility{ background: purple;}
