@@ -1,7 +1,7 @@
 # JSPlatformer
 Platformer created by heavily modifying existing game engine.
 
-![Matrix Block 1](/MatrixBlock Preview/MatrixBlock1.png)
+![Matrix Block 1](/MatrixBlock_Preview/MatrixBlock1.png)
 
 
 What I've done
