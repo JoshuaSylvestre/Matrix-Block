@@ -1,6 +1,9 @@
 # JSPlatformer
 Platformer created by heavily modifying existing game engine.
 
+![Matrix Block 1](/MatrixBlock Previews/MatrixBlock1.png)
+
+
 What I've done
 -----------------------------------------------------------------------
 - Several Power-ups
